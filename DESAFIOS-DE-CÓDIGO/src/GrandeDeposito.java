@@ -20,7 +20,7 @@ public class GrandeDeposito {
                 continuar = false;
             } else {
                 System.out.println("Valor invalido! Digite um valor maior que zero.");
-                
+                continuar = true; // a plataforma só aceitou como false, porém de acordo com o enunciado deveria ser perguntado novamente
             }
         }
     }
